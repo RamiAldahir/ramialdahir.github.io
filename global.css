@@ -1,0 +1,97 @@
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  body {
+    padding: 0;
+    line-height: 1.5;
+    background: #cdd8dd;
+  }
+  
+  body .noscroll {
+    overflow-x: hidden;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  img {
+    border-radius: 50%;
+    transform: scale(0.5);
+  }
+
+  .buttons{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.3s;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+  }
+
+  header {
+    background: #242a2d;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+  }
+
+  header .me {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  header .me h1,
+  header .me p {
+    color: white;
+  }
+  
+  header .me h1 {
+    letter-spacing: 2px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-family: "Alfa Slab One", "Poppins";
+    font-weight: 400;
+    font-family: "Alfa Slab One", "Poppins";
+    font-weight: 400;
+  }
+  
+  header .me p {
+    color: #dcdcdc;
+    line-height: 1.6;
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0.5rem;
+  }
+  
+  header .me p .underline {
+    color: #5787d5;
+  }
+  
+  header .me .buttons {
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  header .highlight {
+    color: #5787d5;
+  }
+  
